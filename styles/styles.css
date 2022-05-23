@@ -1,0 +1,25 @@
+@font-face {
+    src: url(../styles/fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+    font-family: roboto;
+}
+
+
+body {
+    background-image: url(../assets/images/download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
